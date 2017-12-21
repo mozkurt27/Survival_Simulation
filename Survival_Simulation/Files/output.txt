@@ -1,0 +1,27 @@
+Hero started journey with 1000 HP!
+Hero defeated Bug with 992 HP remaining
+Hero defeated Bug with 984 HP remaining
+Hero defeated Lion with 849 HP remaining
+Hero defeated Zombie with 646 HP remaining
+Hero defeated Zombie with 443 HP remaining
+Hero defeated Zombie with 240 HP remaining
+Hero defeated Zombie with 37 HP remaining
+Hero is Dead! Last seen at position 27!!
+Hero started journey with 1000 HP!
+Hero defeated Bug with 992 HP remaining
+Hero defeated Bug with 984 HP remaining
+Hero defeated Lion with 849 HP remaining
+Hero defeated Zombie with 646 HP remaining
+Hero defeated Zombie with 443 HP remaining
+Hero defeated Zombie with 240 HP remaining
+Hero defeated Zombie with 37 HP remaining
+Hero is Dead! Last seen at position 27!!
+Hero started journey with 1000 HP!
+Hero defeated Bug with 992 HP remaining
+Hero defeated Bug with 984 HP remaining
+Hero defeated Lion with 849 HP remaining
+Hero defeated Zombie with 646 HP remaining
+Hero defeated Zombie with 443 HP remaining
+Hero defeated Zombie with 240 HP remaining
+Hero defeated Zombie with 37 HP remaining
+Hero is Dead! Last seen at position 27!!
