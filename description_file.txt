@@ -1,0 +1,50 @@
+1. Projede model olarak Live class'ý oluþturuldu.Class içerisinde;
+	Name: Canlýnýn adý.
+	HP: Canlýnýn can miktarý.
+	Attack: Canlýnýn saldýrý gücü.
+	Location: Canlýnýn konumu.(kaynaða olan uzaklýk)
+  olarak tanýmlandý.
+   
+2. Projede DataHolder Class'ý oluþturuldu.Class içerisinde;
+	Target:Kaynaðýn konumu.(kaynaða olan uzaklýk)
+	Lives: Gönüllü ve Düþmalarýn Listesi.(ilk eleman gönüllüye ait bilgileri tutuyor)
+   olarak tanýmlandý.
+
+3. Projede DataManager Class'ý oluþturuldu.Class içerisinde;
+	Read Metodu: Dosyadan gerekli parametreleri okumakla görevli metod.
+	Write Metodu: Gönüllünün bilgisini dosyaya yazmakla görevli metod.
+	Creator_Live Metodu: Read metoduna yardýmcý olarak okunan parametrelere göre nesneleri oluþturan metod.
+  olarak tanýmlandý.
+
+4. Projede Files Klasörü gerekli dosyalarý tutan klasör olarak tanýmlandý.
+
+5. Projede WarManager Class'ý oluþturuldu. Class içerisinde;
+	Simulation_War Metodu:Adým adým ilerleyen gönüllünün durumunu simüle eden metod.
+	Search_Enemy Metodu: Simulation_War metoduna yardýmcý olarak gönüllünün bulunduðu konumda düþman olup 
+			     olmadýðýna bakan metod.
+	Attack Metodu : Gönüllü ve düþmanýn savaþýný simüle eden metod.
+	Alternative_Simulation_War Metodu: Simulation_War metoduna alternatif olarak oluþturulan, adým adým 
+			ilerlemektense düþman listesi üzerinde çalýþarak gönüllünün durumunu simüle eden metod.
+	Alternative_Attack Metodu: Alternative_Simulation_War metoduna baðlý olarak çalýþan, gönüllü ve düþmanýn
+			savaþýný simüle eden metod.
+
+6. Proje istenilenin dýþýnda sadece parametreleri dosyadan okuyarak deðilde konsol penceresinden gerekli parametreler
+   girilerekte çalýþtýrýlabilir olarak geliþtirildi. Main metodu içerisindeki ReadToFile metodu dosyadan okuyarak,
+   EnterTheParameters metodu deðerleri elle girilerek çalýþmasý için oluþturuldu.
+
+7. Projede gönüllü ile düþmanýn savaþý simüle edilirken 3 durum varsayýldý :
+	1. Ýlk saldýrýya geçen gönüllü
+	2. Ýlk saldýrýya geçen düþman
+	3. Gönüllü ve düþman ayný anda saldýrýya geçen.
+  bu 3 durumdan 1. durum seçilmiþtir. Simüle edilirken iki tarafýnda sýrayla vuruþlarý beklenmek yerine yapabileceði
+  maksimum vuruþ sayýsý hesaplanmýþ ve bu deðer üzerinden maksimum can kaybý hesaplanmýþtýr. Hesaplanan can kaybý gönüllünün
+  var olan canýna eþit veya büyükse gönüllünün öleceði varsayýlmýþtýr.
+
+8. Projede ilk oluþturulan simülasyonda kaynaða olan uzaklýða metre metre ilerlenmiþ ve her adýmda düþman varlýðý kontrolü 
+   yapýlmýþ, düþman var ise savaþa girilmiþtir. Fakat her adýmda düþman varlýðý kontrolü yapmak kaynaða olan uzaklýðýn
+   fazla olmasý durumunda simülasyonu yavaþlatacaðý düþünülerek alternativ bir metod hazýrlanmýþtýr. Alternatif metodda
+   gönüllünün ilerlemesi deðilde elde varolan düþman listesi göz önüne alýnarak bu bilgiler üzerinden ilerleme saðlanmýþtýr.
+   Ýki metodda ayný sonucu üretsede altenatif metodun daha hýzlý olmasý beklenmektedir.
+
+9. Proje OOP prensiplerine uymaya çalýþýlarak ve yardýmsýz olarak tamamlanmýþtýr.
+  

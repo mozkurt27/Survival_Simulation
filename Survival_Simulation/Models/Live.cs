@@ -32,11 +32,5 @@
             get { return _location; }
             set { _location = value; }
         }
-
-        public int Do_Attack(int hp)
-        {
-            hp -= _attack;
-            return hp;
-        }
     }
 }
