@@ -38,7 +38,8 @@ namespace Survival_Simulation
             
             manager.Read(path);
             WarManager war = new WarManager();
-            war.Start_War(manager);
+            war.Simulation_War(manager);
+            //war.Alternative_Simulation_War(manager);
         }
         static void EnterTheParameters()
         {
@@ -74,7 +75,9 @@ namespace Survival_Simulation
             }
             Console.Clear();
             WarManager war = new WarManager();
-            war.Start_War(manager);
+            war.Simulation_War(manager);
+           // war.Alternative_Simulation_War(manager);
+
         }
     }
 }
