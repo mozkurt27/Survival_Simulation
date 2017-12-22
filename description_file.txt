@@ -46,5 +46,13 @@
    gönüllünün ilerlemesi deðilde elde varolan düþman listesi göz önüne alýnarak bu bilgiler üzerinden ilerleme saðlanmýþtýr.
    Ýki metodda ayný sonucu üretsede altenatif metodun daha hýzlý olmasý beklenmektedir.
 
-9. Proje OOP prensiplerine uymaya çalýþýlarak ve yardýmsýz olarak tamamlanmýþtýr.
+9. Projede okunan input dosyasýnýn formatý:
+	<Target>
+	<Hero_Name Hero_Hp Hero_Attack Hero_Location>
+	<Enemy_Name Enemy_Hp Enemy_Attack Enemy_Location>
+	<Enemy_Name Enemy_Hp Enemy_Attack Enemy_Location>
+	<Enemy_Name ... >
+	<Enemy_Name ... >
+	
+10. Proje OOP prensiplerine uymaya çalýþýlarak ve yardýmsýz olarak tamamlanmýþtýr.
   
